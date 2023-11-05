@@ -113,7 +113,7 @@ section{
     display: flex;
     align-items: center;
     /* padding: 0 9%; */
-     background: url(/img/4.jpg)no-repeat;
+     background: url(4.jpg)no-repeat;
     background-size: cover;
     background-position: center; 
     
@@ -597,7 +597,7 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(coding\ skills.png) no-repeat ;
+    background: url(coding skills.png) no-repeat ;
     background-size: cover;
     background-position: center;
     /* opacity: .2; */
@@ -1056,6 +1056,7 @@ span{
     }
 }
 
+
 @media(max-width:376px){
 
     body{
@@ -1070,10 +1071,10 @@ span{
 
     .header{
 
-        width: 325px;
+        width: 376px;
     }
     .home{
-        width: 325px
+        width: 376px;
     }
     
     
@@ -1120,6 +1121,103 @@ span{
     .home-sci{
 
         bottom: -30px;
+        left: 100px;
+
+    }
+
+    .about-content{
+
+        width: 376px
+    }
+    .about-content p{
+
+        width: 350px;
+        margin: 12px;
+        /* border: 2px solid red; */
+    }
+    .education,.skills,.contact{
+
+        width: 376px;
+
+    }
+
+    
+
+}
+
+@media(max-width:321px){
+
+    html,body{
+        width: 320px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+       overflow: hidden;
+    }
+    
+    
+
+
+    .header{
+
+        width: 320px;
+        height: 60px;
+        /* border: 2px solid red; */
+        /* overflow: scroll; */
+    }
+    
+    /* .header .logo{
+        border: 2px solid red;
+    } */
+    .home{
+        width: 320px;
+    }
+    
+    
+    .home{
+        justify-content: center;
+    }
+    .home-content{
+        width: 325px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-content h1{
+        font-size: 31px;
+
+    }
+    .home-content h3,.text-animate{
+        width: 400px;
+    }
+    .home-content .text-animate h3{
+        font-size: 25px;
+    }
+    
+    
+    .home .home-content p{
+        width: 300px;
+        font-size: 11px;
+        /* border: 2px solid red; */
+    }
+    .home .home-content .btn-box{
+
+        width: 300px;
+        font-size: small;
+
+    }
+    .btn-box .btn{
+
+        width: 120px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+    .home-sci{
+
+        bottom: -30px;
         left: 80px;
 
     }
@@ -1142,7 +1240,7 @@ span{
 
 }
 
-@media(max-width:366px){
+/* @media(max-width:366px){
 
    html{
 
@@ -1155,9 +1253,9 @@ span{
 @media(max-width:320px){
 
     section{
-        width: 355px;
+        width: 320px;
     }
-}
+} */
 
 /* animation area */
 
