@@ -1012,10 +1012,12 @@ span{
 
     .home-content h1{
         font-size: 44px;
+        text-align: center;
 
     }
     .home-content .text-animate h3{
         font-size: 30px;
+        text-align: center;
     }
 
     .education{
