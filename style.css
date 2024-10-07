@@ -170,7 +170,7 @@ section{
 } */
 
 .home-content .text-animate h3{
-    font-size: 42px;
+    font-size: 30px;
     font-weight: 350px;
     color: transparent;
     -webkit-text-stroke: .7px var(--main-color);
@@ -181,7 +181,8 @@ section{
     animation: homeanimation1 6s linear infinite;
     animation-delay: 2s;
     /* border: 2px solid red; */
-    width: 450px;
+    width: 300px;
+    
     
 }
 
@@ -914,7 +915,7 @@ span{
  .animate.home-img{
 
     width: 100%;
-    height:1000px;
+    height:845px;
 
  }
  .logo .animate,
@@ -1125,6 +1126,7 @@ span{
     }
     .home-content .text-animate h3{
         font-size: 30px;
+        width: 100%;
     }
 
     .education{
@@ -1209,7 +1211,7 @@ span{
 @keyframes homeanimation1 {
 
     0%,10%,100%{
-        background-position: -450px 0;
+        background-position: -300px 0;
     }
 
     65%,85%{
@@ -1224,7 +1226,7 @@ span{
     }
 
     65%,78%,95%{
-        width: 420px;
+        width: 100%;
         opacity: 1;
 
     }
